@@ -1,0 +1,33 @@
+#include <iostream>
+int main(){
+int a,b,c;
+int min;
+cout<<"sayilari giriniz."<<endl;
+cin>>a;
+cin>>b;
+cin>>c;
+min=a;
+if(b<min){
+  min=b;
+  if(c<min){
+     min=c;
+    cout<<"c en kucuk,a en buyuk sayidir."<<endl;
+    }
+    else if(a<c)
+    cout<<"b en kucuk,c en buyuk sayidir"<<endl;
+    else
+    cout<<"b en kucuk,a en buyuk sayidir."<<endl;
+    }
+     else if(c<min){
+     min=c
+     cout<<"c en kucuk,b en buyuk sayi"<<endl;
+     }
+    else if(b<c)
+     cout<<"a en kucuk, c en buyuk sayi."<<endl;
+     }
+      else
+      cout<<"a min,b max"<<endl;
+      
+      return 1;
+      }
+    
