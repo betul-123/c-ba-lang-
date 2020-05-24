@@ -1,0 +1,15 @@
+#include <iostream>
+int main(){
+int a;
+cout<<"notunuzu giriniz."<<endl;
+cin>>a;
+if(a<=50)
+cout<<"harf notunuz F"<<endl;
+else if(a>50 && a<=70)
+cout<<"harf notunuz c"<<endl;
+else if(a>70 && a<=90)
+cout<<"harf notunuz b"<<endl;
+else
+cout<<"harf notunuz a"<<endl;
+return 1;
+}
